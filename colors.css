@@ -1,0 +1,81 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.title{
+    text-align: center;
+    font-family: "Arial", Times, serif;
+}
+
+.colorContainerBlack{
+    height: 300px;
+    width: 210px;
+    margin-left: 0;
+}
+
+.colorContainerLight{
+    height: 300px;
+    width: 210px;
+    margin-left:0;
+}
+
+.letterColor{
+    text-align: center;
+    font-family: "Arial", Times, serif;
+}
+
+.colorContainerBlack:hover .letterColor{
+    color: white;
+}
+
+.colorContainerLight:hover .letterColor{
+    color: black;
+}
+
+#redDarkLogo{
+    background-color: #f41e1e;
+    color: #f41e1e;
+}
+
+#greyDarkLogo{
+    background-color: #343434;
+    color: #343434;
+}
+
+#whiteLogo{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+#fontGrey{
+    background-color: #7b7b7b;
+    color: #7b7b7b;
+}
+
+#darkestGrey{
+    background-color: #1f2121;
+    color: #1f2121;
+}
+
+#lighterRed{
+    background-color: #d9534f;
+    color: #d9534f;
+}
+
+#blackNavBar{
+    background-color: #1d1d1d;
+    color: #1d1d1d;
+}
+
+#dangerLight{
+    background-color: #FF6459;
+    color: #FF6459;
+}
+
+#dangerDark{
+    background-color: #FF4538;
+    color: #FF4538;
+}
